@@ -43,14 +43,14 @@
     .steps-content{ flex-direction: column; }
     .steps-img{ width: 100%; text-align: center; margin-bottom: 22px; }
     .app-screen{ padding-right: 0 ; width: 35%; }
-    .steps-box{ width: 100%; }
+    .steps-box{ width: 85%; }
     .work-steps div{ margin-right: 10px; height: 40px; width:40px ; }
-    .work-steps{ display: flex; align-items: center; margin-bottom: 12px; }
+    .work-steps{ margin-bottom: 12px; }
     .steps-box{ padding: 0 6%; }
     .city{ flex-direction: column; }
     .city-box{ margin-bottom: 12px; }
     .tm-content{ flex-direction: column; }
-    .tm-box{ width: 100%; }
+    .tm-box{ width: 100%; margin: 0;  }
     .plans-content{ flex-direction: column; align-items: center; }
     .plan-box{ width: 60%; margin: 18px 0px; }
     .hero-textbox{ margin: 2.2rem 1.2rem;}
@@ -60,7 +60,24 @@
     .footer-row div{ width: 100%; }
      footer p, .footer-row div:last-child{ margin-top: 12px; }
      .contact-form{ width: 80%; }
+     .btn-full:link, .btn-full:visited{ margin-right: 10px; }
+     .btn-app img{ height: 45px; margin-right: 6px;}
+     .context p{ width: 80%;
+        margin: 20px auto 0 auto; }
 }
 @media only screen and (max-width: 480px) {
-    
+     body{ font-size: 14px ; }
+     h1{ font-size: 160%; }
+     h2{ font-size: 130%; margin: 0 15px; }
+     .hero-textbox{ margin: 2rem 0.8rem ; }
+     .btns{ margin-top: 1rem; }
+     .btn-full:link, .btn-full:visited{ margin-right: 3px; }
+     .btn:link, .btn:visited { padding: 7px 20px; }
+     .work-steps div{ width:30px ; height:30px ; }
+     .btn-app img{ height: 40px; }
+     .steps-box{ width: 92%; padding: 0 4%; }
+     .plan-box{ width: 70%; }
+     .footer-row{ padding: 0; }
+     .footer-row li a{ margin: 0 6px; }
+
 }
